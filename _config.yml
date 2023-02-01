@@ -104,4 +104,4 @@ theme: one-paper
 deploy:
   type: git
   repository: https://github.com/ommiao/PrivacyPolicies.git
-  branch: source
+  branch: master
