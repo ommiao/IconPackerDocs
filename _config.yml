@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Privacy Policies
+title: Icon Packer Docs
 subtitle: ''
 description: ''
 keywords:
@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://ommiao.github.io/PrivacyPolicies
+url: https://ommiao.github.io/IconPackerDocs
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,5 +103,5 @@ theme: one-paper
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: https://github.com/ommiao/PrivacyPolicies.git
+  repository: https://github.com/ommiao/IconPackerDocs.git
   branch: master

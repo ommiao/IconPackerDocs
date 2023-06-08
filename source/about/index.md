@@ -3,4 +3,4 @@ title: About
 tags:
 ---
 
-All Privacy Policies of my all applications.
+Find everything about building your icon pack by Icon Packer.
