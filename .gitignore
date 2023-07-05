@@ -8,3 +8,8 @@ public/
 _multiconfig.yml
 .idea/
 .github/
+
+!node_modules/
+node_modules/*
+!node_modules/hexo-asset
+!node_modules/hexo-tag-photozoom
