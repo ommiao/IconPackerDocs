@@ -12,6 +12,20 @@ const createFirstPack = {
   }
 }
 
+const backupAndRestore = {
+  "id": "backup-and-restore",
+  "title": "Backup and restore",
+  "url": "https://ommiao.github.io/IconPackerDocs/2023/09/07/basic-004-backup-and-restore/",
+  "background": {
+    "light": "FF8154AB",
+    "dark": "FF8154AB"
+  },
+  "foreground": {
+    "light": "FFFFFFFF",
+    "dark": "FFFFFFFF"
+  }
+}
+
 const batchOperations = {
   "id": "batch-operations",
   "title": "Get to know efficient operations?",
@@ -31,6 +45,7 @@ hexo.extend.generator.register('api', function (locals) {
     path: 'api/highlight-docs',
     data: [
       createFirstPack,
+      backupAndRestore,
       batchOperations
     ]
   };
