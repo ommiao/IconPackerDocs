@@ -40,13 +40,28 @@ const batchOperations = {
   }
 }
 
+const differentPackage = {
+  "id": "different-package",
+  "title": "Why need different package name?",
+  "url": "https://ommiao.github.io/IconPackerDocs/2023/12/01/advanced-003-different-package-name/",
+  "background": {
+    "light": "FF8154AB",
+    "dark": "FF8154AB"
+  },
+  "foreground": {
+    "light": "FFFFFFFF",
+    "dark": "FFFFFFFF"
+  }
+}
+
 hexo.extend.generator.register('api', function (locals) {
   return {
     path: 'api/highlight-docs',
     data: [
       createFirstPack,
       backupAndRestore,
-      batchOperations
+      batchOperations,
+      differentPackage
     ]
   };
 });
