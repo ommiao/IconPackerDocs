@@ -54,6 +54,20 @@ const differentPackage = {
   }
 }
 
+const dynamicCalendar = {
+  "id": "dynamic-calendar",
+  "title": "Try dynamic calendar",
+  "url": "https://ommiao.github.io/IconPackerDocs/2023/12/13/advanced-004-dynamic-calendar/",
+  "background": {
+    "light": "FF8154AB",
+    "dark": "FF8154AB"
+  },
+  "foreground": {
+    "light": "FFFFFFFF",
+    "dark": "FFFFFFFF"
+  }
+}
+
 hexo.extend.generator.register('api', function (locals) {
   return {
     path: 'api/highlight-docs',
@@ -61,7 +75,8 @@ hexo.extend.generator.register('api', function (locals) {
       createFirstPack,
       backupAndRestore,
       batchOperations,
-      differentPackage
+      differentPackage,
+      dynamicCalendar
     ]
   };
 });
