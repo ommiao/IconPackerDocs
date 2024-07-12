@@ -68,6 +68,20 @@ const dynamicCalendar = {
   }
 }
 
+const wordWallpaper = {
+  "id": "word-wallpaper",
+  "title": "Try Chinese art wallpaper",
+  "url": "https://play.google.com/store/apps/details?id=cn.ommiao.wordwallpaper",
+  "background": {
+    "light": "FF8154AB",
+    "dark": "FF8154AB"
+  },
+  "foreground": {
+    "light": "FFFFFFFF",
+    "dark": "FFFFFFFF"
+  }
+}
+
 hexo.extend.generator.register('api', function (locals) {
   return {
     path: 'api/highlight-docs',
@@ -76,7 +90,8 @@ hexo.extend.generator.register('api', function (locals) {
       backupAndRestore,
       batchOperations,
       differentPackage,
-      dynamicCalendar
+      dynamicCalendar,
+      wordWallpaper
     ]
   };
 });
